@@ -29,11 +29,11 @@ struct SnakeGameView: View {
                 
                 Spacer()
                 
-                GridView(viewModel: viewModel)
+                SquareGrid(viewModel: viewModel)
                 
                 Spacer()
                 
-                JoystickView(viewModel: viewModel)
+                Joystick(viewModel: viewModel)
                     .onReceive(timer) { _ in
                         if countdown < 1 {
                             start()

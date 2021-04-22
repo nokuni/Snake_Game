@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct JoystickView: View {
+struct Joystick: View {
     
     @ObservedObject var viewModel : GameViewModel
     
@@ -88,7 +88,7 @@ struct JoystickView: View {
 
 struct JoystickView_Previews: PreviewProvider {
     static var previews: some View {
-        JoystickView(viewModel: GameViewModel.init())
+        Joystick(viewModel: GameViewModel.init())
     }
 }
 

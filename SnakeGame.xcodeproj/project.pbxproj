@@ -11,13 +11,13 @@
 		2E2674622629247D00F96C19 /* SnakeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2674612629247D00F96C19 /* SnakeGameView.swift */; };
 		2E2674642629247E00F96C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2674632629247E00F96C19 /* Assets.xcassets */; };
 		2E2674672629247E00F96C19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2674662629247E00F96C19 /* Preview Assets.xcassets */; };
-		2E2674742629700B00F96C19 /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2674732629700B00F96C19 /* JoystickView.swift */; };
+		2E2674742629700B00F96C19 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2674732629700B00F96C19 /* Joystick.swift */; };
 		2E2674772629701E00F96C19 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2674762629701E00F96C19 /* GameViewModel.swift */; };
 		2E26747A262AEC4800F96C19 /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E267479262AEC4700F96C19 /* ColorData.swift */; };
 		2E267482262B08F800F96C19 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E267481262B08F800F96C19 /* GameModel.swift */; };
 		2E652D0F262D320F0017BDF9 /* SnakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D0E262D320F0017BDF9 /* SnakeModel.swift */; };
 		2E652D13262D32780017BDF9 /* ArraySplitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D12262D32780017BDF9 /* ArraySplitting.swift */; };
-		2E652D17262D34A20017BDF9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D16262D34A20017BDF9 /* GridView.swift */; };
+		2E652D17262D34A20017BDF9 /* SquareGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D16262D34A20017BDF9 /* SquareGrid.swift */; };
 		2E652D1A262D3B770017BDF9 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D19262D3B770017BDF9 /* CustomAlertView.swift */; };
 		2E652D22262D3F200017BDF9 /* pixelFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E652D21262D3F200017BDF9 /* pixelFont.ttf */; };
 		2E652D2A262D41C70017BDF9 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E652D29262D41C70017BDF9 /* Minecraft.ttf */; };
@@ -32,13 +32,13 @@
 		2E2674632629247E00F96C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E2674662629247E00F96C19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E2674682629247E00F96C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E2674732629700B00F96C19 /* JoystickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickView.swift; sourceTree = "<group>"; };
+		2E2674732629700B00F96C19 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
 		2E2674762629701E00F96C19 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		2E267479262AEC4700F96C19 /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 		2E267481262B08F800F96C19 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		2E652D0E262D320F0017BDF9 /* SnakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeModel.swift; sourceTree = "<group>"; };
 		2E652D12262D32780017BDF9 /* ArraySplitting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySplitting.swift; sourceTree = "<group>"; };
-		2E652D16262D34A20017BDF9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		2E652D16262D34A20017BDF9 /* SquareGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareGrid.swift; sourceTree = "<group>"; };
 		2E652D19262D3B770017BDF9 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		2E652D21262D3F200017BDF9 /* pixelFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixelFont.ttf; sourceTree = "<group>"; };
 		2E652D29262D41C70017BDF9 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 				2E2674612629247D00F96C19 /* SnakeGameView.swift */,
 				2E652D2C262D503C0017BDF9 /* StartAnimationView.swift */,
 				2E652D19262D3B770017BDF9 /* CustomAlertView.swift */,
-				2E2674732629700B00F96C19 /* JoystickView.swift */,
-				2E652D16262D34A20017BDF9 /* GridView.swift */,
+				2E2674732629700B00F96C19 /* Joystick.swift */,
+				2E652D16262D34A20017BDF9 /* SquareGrid.swift */,
 				2E781A012631CFC9001B082A /* SquareItem.swift */,
 			);
 			path = View;
@@ -224,8 +224,8 @@
 				2E652D13262D32780017BDF9 /* ArraySplitting.swift in Sources */,
 				2E2674602629247D00F96C19 /* SnakeGameApp.swift in Sources */,
 				2E652D2D262D503C0017BDF9 /* StartAnimationView.swift in Sources */,
-				2E2674742629700B00F96C19 /* JoystickView.swift in Sources */,
-				2E652D17262D34A20017BDF9 /* GridView.swift in Sources */,
+				2E2674742629700B00F96C19 /* Joystick.swift in Sources */,
+				2E652D17262D34A20017BDF9 /* SquareGrid.swift in Sources */,
 				2E267482262B08F800F96C19 /* GameModel.swift in Sources */,
 				2E781A022631CFC9001B082A /* SquareItem.swift in Sources */,
 			);

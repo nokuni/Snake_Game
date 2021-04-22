@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GridView: View {
+struct SquareGrid: View {
     
     @ObservedObject var viewModel : GameViewModel
     
@@ -30,6 +30,6 @@ struct GridView: View {
 
 struct GridView_Previews: PreviewProvider {
     static var previews: some View {
-        GridView(viewModel: GameViewModel.init())
+        SquareGrid(viewModel: GameViewModel.init())
     }
 }
