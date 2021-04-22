@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E2674602629247D00F96C19 /* SnakeGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26745F2629247D00F96C19 /* SnakeGameApp.swift */; };
+		2E2674622629247D00F96C19 /* SnakeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2674612629247D00F96C19 /* SnakeGameView.swift */; };
+		2E2674642629247E00F96C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2674632629247E00F96C19 /* Assets.xcassets */; };
+		2E2674672629247E00F96C19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2674662629247E00F96C19 /* Preview Assets.xcassets */; };
+		2E2674742629700B00F96C19 /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2674732629700B00F96C19 /* JoystickView.swift */; };
+		2E2674772629701E00F96C19 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2674762629701E00F96C19 /* GameViewModel.swift */; };
+		2E26747A262AEC4800F96C19 /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E267479262AEC4700F96C19 /* ColorData.swift */; };
+		2E267482262B08F800F96C19 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E267481262B08F800F96C19 /* GameModel.swift */; };
+		2E652D0F262D320F0017BDF9 /* SnakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D0E262D320F0017BDF9 /* SnakeModel.swift */; };
+		2E652D13262D32780017BDF9 /* ArraySplitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D12262D32780017BDF9 /* ArraySplitting.swift */; };
+		2E652D17262D34A20017BDF9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D16262D34A20017BDF9 /* GridView.swift */; };
+		2E652D1A262D3B770017BDF9 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D19262D3B770017BDF9 /* CustomAlertView.swift */; };
+		2E652D22262D3F200017BDF9 /* pixelFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E652D21262D3F200017BDF9 /* pixelFont.ttf */; };
+		2E652D2A262D41C70017BDF9 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E652D29262D41C70017BDF9 /* Minecraft.ttf */; };
+		2E652D2D262D503C0017BDF9 /* StartAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E652D2C262D503C0017BDF9 /* StartAnimationView.swift */; };
+		2E781A022631CFC9001B082A /* SquareItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E781A012631CFC9001B082A /* SquareItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E26745C2629247D00F96C19 /* SnakeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E26745F2629247D00F96C19 /* SnakeGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGameApp.swift; sourceTree = "<group>"; };
+		2E2674612629247D00F96C19 /* SnakeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGameView.swift; sourceTree = "<group>"; };
+		2E2674632629247E00F96C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E2674662629247E00F96C19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E2674682629247E00F96C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2674732629700B00F96C19 /* JoystickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickView.swift; sourceTree = "<group>"; };
+		2E2674762629701E00F96C19 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		2E267479262AEC4700F96C19 /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		2E267481262B08F800F96C19 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		2E652D0E262D320F0017BDF9 /* SnakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeModel.swift; sourceTree = "<group>"; };
+		2E652D12262D32780017BDF9 /* ArraySplitting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySplitting.swift; sourceTree = "<group>"; };
+		2E652D16262D34A20017BDF9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		2E652D19262D3B770017BDF9 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		2E652D21262D3F200017BDF9 /* pixelFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixelFont.ttf; sourceTree = "<group>"; };
+		2E652D29262D41C70017BDF9 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		2E652D2C262D503C0017BDF9 /* StartAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAnimationView.swift; sourceTree = "<group>"; };
+		2E781A012631CFC9001B082A /* SquareItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2674592629247D00F96C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2674532629247D00F96C19 = {
+			isa = PBXGroup;
+			children = (
+				2E26745E2629247D00F96C19 /* SnakeGame */,
+				2E26745D2629247D00F96C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E26745D2629247D00F96C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E26745C2629247D00F96C19 /* SnakeGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E26745E2629247D00F96C19 /* SnakeGame */ = {
+			isa = PBXGroup;
+			children = (
+				2E26745F2629247D00F96C19 /* SnakeGameApp.swift */,
+				2E26747D262AED5700F96C19 /* View */,
+				2E26747E262AED5C00F96C19 /* Model */,
+				2E26747C262AED4C00F96C19 /* ViewModel */,
+				2E2674632629247E00F96C19 /* Assets.xcassets */,
+				2E2674682629247E00F96C19 /* Info.plist */,
+				2E652D1C262D3CE40017BDF9 /* fonts */,
+				2E2674652629247E00F96C19 /* Preview Content */,
+			);
+			path = SnakeGame;
+			sourceTree = "<group>";
+		};
+		2E2674652629247E00F96C19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E2674662629247E00F96C19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E26747C262AED4C00F96C19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E2674762629701E00F96C19 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E26747D262AED5700F96C19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E2674612629247D00F96C19 /* SnakeGameView.swift */,
+				2E652D2C262D503C0017BDF9 /* StartAnimationView.swift */,
+				2E652D19262D3B770017BDF9 /* CustomAlertView.swift */,
+				2E2674732629700B00F96C19 /* JoystickView.swift */,
+				2E652D16262D34A20017BDF9 /* GridView.swift */,
+				2E781A012631CFC9001B082A /* SquareItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E26747E262AED5C00F96C19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E652D11262D32490017BDF9 /* Extensions */,
+				2E267481262B08F800F96C19 /* GameModel.swift */,
+				2E652D0E262D320F0017BDF9 /* SnakeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E652D11262D32490017BDF9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E267479262AEC4700F96C19 /* ColorData.swift */,
+				2E652D12262D32780017BDF9 /* ArraySplitting.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E652D1C262D3CE40017BDF9 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2E652D29262D41C70017BDF9 /* Minecraft.ttf */,
+				2E652D21262D3F200017BDF9 /* pixelFont.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E26745B2629247D00F96C19 /* SnakeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E26746B2629247E00F96C19 /* Build configuration list for PBXNativeTarget "SnakeGame" */;
+			buildPhases = (
+				2E2674582629247D00F96C19 /* Sources */,
+				2E2674592629247D00F96C19 /* Frameworks */,
+				2E26745A2629247D00F96C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnakeGame;
+			productName = SnakeGame;
+			productReference = 2E26745C2629247D00F96C19 /* SnakeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E2674542629247D00F96C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2E26745B2629247D00F96C19 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2E2674572629247D00F96C19 /* Build configuration list for PBXProject "SnakeGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E2674532629247D00F96C19;
+			productRefGroup = 2E26745D2629247D00F96C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E26745B2629247D00F96C19 /* SnakeGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E26745A2629247D00F96C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2674672629247E00F96C19 /* Preview Assets.xcassets in Resources */,
+				2E652D22262D3F200017BDF9 /* pixelFont.ttf in Resources */,
+				2E652D2A262D41C70017BDF9 /* Minecraft.ttf in Resources */,
+				2E2674642629247E00F96C19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2674582629247D00F96C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E652D1A262D3B770017BDF9 /* CustomAlertView.swift in Sources */,
+				2E652D0F262D320F0017BDF9 /* SnakeModel.swift in Sources */,
+				2E2674772629701E00F96C19 /* GameViewModel.swift in Sources */,
+				2E2674622629247D00F96C19 /* SnakeGameView.swift in Sources */,
+				2E26747A262AEC4800F96C19 /* ColorData.swift in Sources */,
+				2E652D13262D32780017BDF9 /* ArraySplitting.swift in Sources */,
+				2E2674602629247D00F96C19 /* SnakeGameApp.swift in Sources */,
+				2E652D2D262D503C0017BDF9 /* StartAnimationView.swift in Sources */,
+				2E2674742629700B00F96C19 /* JoystickView.swift in Sources */,
+				2E652D17262D34A20017BDF9 /* GridView.swift in Sources */,
+				2E267482262B08F800F96C19 /* GameModel.swift in Sources */,
+				2E781A022631CFC9001B082A /* SquareItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E2674692629247E00F96C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E26746A2629247E00F96C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E26746C2629247E00F96C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnakeGame/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6DV6C6352;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnakeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yann.SnakeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E26746D2629247E00F96C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnakeGame/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6DV6C6352;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnakeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yann.SnakeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E2674572629247D00F96C19 /* Build configuration list for PBXProject "SnakeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2674692629247E00F96C19 /* Debug */,
+				2E26746A2629247E00F96C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E26746B2629247E00F96C19 /* Build configuration list for PBXNativeTarget "SnakeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E26746C2629247E00F96C19 /* Debug */,
+				2E26746D2629247E00F96C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E2674542629247D00F96C19 /* Project object */;
+}
